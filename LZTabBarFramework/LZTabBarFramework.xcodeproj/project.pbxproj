@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEEAA4371CD5B584009B1401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA4361CD5B584009B1401 /* main.m */; };
+		EEEAA43A1CD5B584009B1401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA4391CD5B584009B1401 /* AppDelegate.m */; };
+		EEEAA4421CD5B584009B1401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEAA4411CD5B584009B1401 /* Assets.xcassets */; };
+		EEEAA4451CD5B584009B1401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEAA4431CD5B584009B1401 /* LaunchScreen.storyboard */; };
+		EEEAA4581CD5B7A4009B1401 /* LZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA4571CD5B7A4009B1401 /* LZHomeViewController.m */; };
+		EEEAA45B1CD5B7BC009B1401 /* LZMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA45A1CD5B7BC009B1401 /* LZMineViewController.m */; };
+		EEEAA45E1CD5B7CE009B1401 /* LZPurseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA45D1CD5B7CE009B1401 /* LZPurseViewController.m */; };
+		EEEAA4611CD5B7E0009B1401 /* LZStatementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA4601CD5B7E0009B1401 /* LZStatementViewController.m */; };
+		EEEAA4641CD5BC05009B1401 /* LZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA4631CD5BC05009B1401 /* LZDetailViewController.m */; };
+		EEEAA46D1CD5BC86009B1401 /* LZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA4661CD5BC86009B1401 /* LZTabBarController.m */; };
+		EEEAA46E1CD5BC86009B1401 /* LZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA4681CD5BC86009B1401 /* LZTabBar.m */; };
+		EEEAA46F1CD5BC86009B1401 /* LZPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA46A1CD5BC86009B1401 /* LZPlusButton.m */; };
+		EEEAA4701CD5BC86009B1401 /* UIViewController+LZJumpToOtherTabBarControllerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA46C1CD5BC86009B1401 /* UIViewController+LZJumpToOtherTabBarControllerItem.m */; };
+		EEEAA4731CD5BE8A009B1401 /* LZTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA4721CD5BE8A009B1401 /* LZTabBarControllerConfig.m */; };
+		EEEAA4771CD5C0FB009B1401 /* LZPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAA4761CD5C0FB009B1401 /* LZPlusButtonSubclass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEEAA4321CD5B584009B1401 /* LZTabBarFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZTabBarFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEAA4361CD5B584009B1401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEEAA4381CD5B584009B1401 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		EEEAA4391CD5B584009B1401 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		EEEAA4411CD5B584009B1401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		EEEAA4441CD5B584009B1401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEEAA4461CD5B584009B1401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		EEEAA4561CD5B7A4009B1401 /* LZHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHomeViewController.h; sourceTree = "<group>"; };
+		EEEAA4571CD5B7A4009B1401 /* LZHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHomeViewController.m; sourceTree = "<group>"; };
+		EEEAA4591CD5B7BC009B1401 /* LZMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMineViewController.h; sourceTree = "<group>"; };
+		EEEAA45A1CD5B7BC009B1401 /* LZMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMineViewController.m; sourceTree = "<group>"; };
+		EEEAA45C1CD5B7CE009B1401 /* LZPurseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPurseViewController.h; sourceTree = "<group>"; };
+		EEEAA45D1CD5B7CE009B1401 /* LZPurseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPurseViewController.m; sourceTree = "<group>"; };
+		EEEAA45F1CD5B7E0009B1401 /* LZStatementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZStatementViewController.h; sourceTree = "<group>"; };
+		EEEAA4601CD5B7E0009B1401 /* LZStatementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZStatementViewController.m; sourceTree = "<group>"; };
+		EEEAA4621CD5BC05009B1401 /* LZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDetailViewController.h; sourceTree = "<group>"; };
+		EEEAA4631CD5BC05009B1401 /* LZDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDetailViewController.m; sourceTree = "<group>"; };
+		EEEAA4651CD5BC86009B1401 /* LZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBarController.h; sourceTree = "<group>"; };
+		EEEAA4661CD5BC86009B1401 /* LZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBarController.m; sourceTree = "<group>"; };
+		EEEAA4671CD5BC86009B1401 /* LZTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBar.h; sourceTree = "<group>"; };
+		EEEAA4681CD5BC86009B1401 /* LZTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBar.m; sourceTree = "<group>"; };
+		EEEAA4691CD5BC86009B1401 /* LZPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPlusButton.h; sourceTree = "<group>"; };
+		EEEAA46A1CD5BC86009B1401 /* LZPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPlusButton.m; sourceTree = "<group>"; };
+		EEEAA46B1CD5BC86009B1401 /* UIViewController+LZJumpToOtherTabBarControllerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LZJumpToOtherTabBarControllerItem.h"; sourceTree = "<group>"; };
+		EEEAA46C1CD5BC86009B1401 /* UIViewController+LZJumpToOtherTabBarControllerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LZJumpToOtherTabBarControllerItem.m"; sourceTree = "<group>"; };
+		EEEAA4711CD5BE8A009B1401 /* LZTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabBarControllerConfig.h; sourceTree = "<group>"; };
+		EEEAA4721CD5BE8A009B1401 /* LZTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabBarControllerConfig.m; sourceTree = "<group>"; };
+		EEEAA4751CD5C0FB009B1401 /* LZPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPlusButtonSubclass.h; sourceTree = "<group>"; };
+		EEEAA4761CD5C0FB009B1401 /* LZPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPlusButtonSubclass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEEAA42F1CD5B584009B1401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEEAA4291CD5B584009B1401 = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4341CD5B584009B1401 /* LZTabBarFramework */,
+				EEEAA4331CD5B584009B1401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEEAA4331CD5B584009B1401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4321CD5B584009B1401 /* LZTabBarFramework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEEAA4341CD5B584009B1401 /* LZTabBarFramework */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4541CD5B6F0009B1401 /* Lib */,
+				EEEAA44C1CD5B6C8009B1401 /* Example */,
+				EEEAA4551CD5B6F0009B1401 /* Resource */,
+				EEEAA4351CD5B584009B1401 /* Supporting Files */,
+			);
+			path = LZTabBarFramework;
+			sourceTree = "<group>";
+		};
+		EEEAA4351CD5B584009B1401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4361CD5B584009B1401 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEEAA44C1CD5B6C8009B1401 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4381CD5B584009B1401 /* AppDelegate.h */,
+				EEEAA4391CD5B584009B1401 /* AppDelegate.m */,
+				EEEAA4711CD5BE8A009B1401 /* LZTabBarControllerConfig.h */,
+				EEEAA4721CD5BE8A009B1401 /* LZTabBarControllerConfig.m */,
+				EEEAA44D1CD5B6C8009B1401 /* Classes */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		EEEAA44D1CD5B6C8009B1401 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4741CD5C0F3009B1401 /* View */,
+				EEEAA44E1CD5B6C8009B1401 /* Module */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EEEAA44E1CD5B6C8009B1401 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA44F1CD5B6C8009B1401 /* Detail */,
+				EEEAA4511CD5B6C8009B1401 /* Purse */,
+				EEEAA4521CD5B6C8009B1401 /* Statement */,
+				EEEAA4501CD5B6C8009B1401 /* Mine */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		EEEAA44F1CD5B6C8009B1401 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4561CD5B7A4009B1401 /* LZHomeViewController.h */,
+				EEEAA4571CD5B7A4009B1401 /* LZHomeViewController.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		EEEAA4501CD5B6C8009B1401 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4591CD5B7BC009B1401 /* LZMineViewController.h */,
+				EEEAA45A1CD5B7BC009B1401 /* LZMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		EEEAA4511CD5B6C8009B1401 /* Purse */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA45C1CD5B7CE009B1401 /* LZPurseViewController.h */,
+				EEEAA45D1CD5B7CE009B1401 /* LZPurseViewController.m */,
+			);
+			path = Purse;
+			sourceTree = "<group>";
+		};
+		EEEAA4521CD5B6C8009B1401 /* Statement */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4621CD5BC05009B1401 /* LZDetailViewController.h */,
+				EEEAA4631CD5BC05009B1401 /* LZDetailViewController.m */,
+				EEEAA45F1CD5B7E0009B1401 /* LZStatementViewController.h */,
+				EEEAA4601CD5B7E0009B1401 /* LZStatementViewController.m */,
+			);
+			path = Statement;
+			sourceTree = "<group>";
+		};
+		EEEAA4541CD5B6F0009B1401 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4651CD5BC86009B1401 /* LZTabBarController.h */,
+				EEEAA4661CD5BC86009B1401 /* LZTabBarController.m */,
+				EEEAA4671CD5BC86009B1401 /* LZTabBar.h */,
+				EEEAA4681CD5BC86009B1401 /* LZTabBar.m */,
+				EEEAA4691CD5BC86009B1401 /* LZPlusButton.h */,
+				EEEAA46A1CD5BC86009B1401 /* LZPlusButton.m */,
+				EEEAA46B1CD5BC86009B1401 /* UIViewController+LZJumpToOtherTabBarControllerItem.h */,
+				EEEAA46C1CD5BC86009B1401 /* UIViewController+LZJumpToOtherTabBarControllerItem.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EEEAA4551CD5B6F0009B1401 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4411CD5B584009B1401 /* Assets.xcassets */,
+				EEEAA4431CD5B584009B1401 /* LaunchScreen.storyboard */,
+				EEEAA4461CD5B584009B1401 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EEEAA4741CD5C0F3009B1401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEEAA4751CD5C0FB009B1401 /* LZPlusButtonSubclass.h */,
+				EEEAA4761CD5C0FB009B1401 /* LZPlusButtonSubclass.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEEAA4311CD5B584009B1401 /* LZTabBarFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEAA4491CD5B584009B1401 /* Build configuration list for PBXNativeTarget "LZTabBarFramework" */;
+			buildPhases = (
+				EEEAA42E1CD5B584009B1401 /* Sources */,
+				EEEAA42F1CD5B584009B1401 /* Frameworks */,
+				EEEAA4301CD5B584009B1401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZTabBarFramework;
+			productName = LZTabBarFramework;
+			productReference = EEEAA4321CD5B584009B1401 /* LZTabBarFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEAA42A1CD5B584009B1401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LZ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LZING;
+				TargetAttributes = {
+					EEEAA4311CD5B584009B1401 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EEEAA42D1CD5B584009B1401 /* Build configuration list for PBXProject "LZTabBarFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEEAA4291CD5B584009B1401;
+			productRefGroup = EEEAA4331CD5B584009B1401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEEAA4311CD5B584009B1401 /* LZTabBarFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEEAA4301CD5B584009B1401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEAA4451CD5B584009B1401 /* LaunchScreen.storyboard in Resources */,
+				EEEAA4421CD5B584009B1401 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEAA42E1CD5B584009B1401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEAA4731CD5BE8A009B1401 /* LZTabBarControllerConfig.m in Sources */,
+				EEEAA46F1CD5BC86009B1401 /* LZPlusButton.m in Sources */,
+				EEEAA46D1CD5BC86009B1401 /* LZTabBarController.m in Sources */,
+				EEEAA45E1CD5B7CE009B1401 /* LZPurseViewController.m in Sources */,
+				EEEAA4771CD5C0FB009B1401 /* LZPlusButtonSubclass.m in Sources */,
+				EEEAA43A1CD5B584009B1401 /* AppDelegate.m in Sources */,
+				EEEAA4611CD5B7E0009B1401 /* LZStatementViewController.m in Sources */,
+				EEEAA4581CD5B7A4009B1401 /* LZHomeViewController.m in Sources */,
+				EEEAA4371CD5B584009B1401 /* main.m in Sources */,
+				EEEAA4701CD5BC86009B1401 /* UIViewController+LZJumpToOtherTabBarControllerItem.m in Sources */,
+				EEEAA4641CD5BC05009B1401 /* LZDetailViewController.m in Sources */,
+				EEEAA46E1CD5BC86009B1401 /* LZTabBar.m in Sources */,
+				EEEAA45B1CD5B7BC009B1401 /* LZMineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEEAA4431CD5B584009B1401 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEAA4441CD5B584009B1401 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEEAA4471CD5B584009B1401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEEAA4481CD5B584009B1401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEEAA44A1CD5B584009B1401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZTabBarFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZING.LZTabBarFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEEAA44B1CD5B584009B1401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZTabBarFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZING.LZTabBarFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEEAA42D1CD5B584009B1401 /* Build configuration list for PBXProject "LZTabBarFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEAA4471CD5B584009B1401 /* Debug */,
+				EEEAA4481CD5B584009B1401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEAA4491CD5B584009B1401 /* Build configuration list for PBXNativeTarget "LZTabBarFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEAA44A1CD5B584009B1401 /* Debug */,
+				EEEAA44B1CD5B584009B1401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEAA42A1CD5B584009B1401 /* Project object */;
+}
