@@ -112,9 +112,9 @@
     
     UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil
                                                              delegate:nil
-                                                    cancelButtonTitle:@"取消"
-                                               destructiveButtonTitle:nil
-                                                    otherButtonTitles:@"拍照", @"从相册选取", @"淘宝一键转卖", nil];
+                                                    cancelButtonTitle:nil
+                                               destructiveButtonTitle:@"取消"
+                                                    otherButtonTitles:@"支出", @"收入", nil];
     [actionSheet showInView:viewController.view];
 }
 

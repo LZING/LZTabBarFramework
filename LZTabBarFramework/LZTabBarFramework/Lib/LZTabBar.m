@@ -60,7 +60,7 @@ static void *const LZTabBarContext = (void*)&LZTabBarContext;
 }
 
 - (void)dealloc {
-    // KVO反注册
+    // KVO移除监听
     [self removeObserver:self forKeyPath:@"tabBarItemWidth"];
 }
 

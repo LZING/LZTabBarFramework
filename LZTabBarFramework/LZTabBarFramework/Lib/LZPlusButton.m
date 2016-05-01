@@ -15,7 +15,6 @@ UIViewController *LZPlusChildViewController = nil;
 
 @implementation LZPlusButton
 
-#pragma mark -
 #pragma mark - Private Methods
 
 + (void)registerSubclass {
